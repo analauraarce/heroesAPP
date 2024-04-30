@@ -1,0 +1,52 @@
+<h1>
+    {{(hero.id)?'Edit hero':'New hero'}}
+    <small>{{hero.superhero}}</small>
+</h1>
+<div class="cont">
+    <div class="one">
+        <div class="u">
+            <mat-form-field class="r">
+                <mat-label>Superhero</mat-label>
+                <input matInput type="text" [(ngModel)]="hero.superhero" required>
+            </mat-form-field>
+            <mat-form-field class="r">
+                <mat-label>Alter ego</mat-label>
+                <input matInput type="text" [(ngModel)]="hero.alter_ego" required>
+            </mat-form-field>
+        </div>
+        <mat-form-field>
+            <mat-label>First appearance</mat-label>
+            <input matInput type="text" [(ngModel)]="hero.first_appearance" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Characters</mat-label>
+            <input matInput type="text" [(ngModel)]="hero.characters" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Creator</mat-label>
+            <mat-select [(ngModel)]="hero.publisher" required>
+                <mat-option *ngFor="let publisher of publishers" [value]="publisher.id">{{publisher.desc}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Picture url</mat-label>
+            <input matInput type="url" [(ngModel)]="hero.alt_img" required>
+        </mat-form-field>
+        <br>
+        <div class="butn">
+            <button mat-raised-button color="primary" (click)="save()">
+                <mat-icon>edit</mat-icon>
+                {{(hero.id)?'Update':'Create'}}
+            </button>
+            <span class="spacer"></span>
+
+            <button *ngIf="hero.id" mat-raised-button color="warn" (click)="deleteH()">
+                <mat-icon>remove</mat-icon>
+                Delete
+            </button>
+        </div>
+    </div>
+    <div class="two">
+        <img [src]="hero | image">
+    </div>
+</div>

@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseUrl:'https://analauraarce.github.io/heroes-server/db.json'
 };
