@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl:'https://analauraarce.github.io/heroes-server/db.json'
+  baseUrl:'https://my-json-server.typicode.com/analauraarce/heroes-server'
 };
