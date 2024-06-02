@@ -15,7 +15,7 @@ https://analauraarce.github.io/gifsApplication/
 
 To use API keys, HTTP requests, CSS animations, search history, LocalStorage and others that were used to build this application.
 
-# HeroesApp
+## HeroesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
