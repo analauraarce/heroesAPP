@@ -4,6 +4,8 @@ This is an application that shows superheroes cards with information about them 
 
 ## The site is live at 
 https://analauraarce.github.io/heroesApp/
+The live version does not allow to edit the database, so some options of the application will not work as editing or deleting a superhero.
+To test this application locally, download the data base from https://github.com/analauraarce/heroes-server and run `json-server --watch db.json`.
 
 ## Author ✒️
 **Ana Laura Arce**
@@ -13,7 +15,7 @@ https://analauraarce.github.io/heroesApp/
 
 ## What have I learned with this project? 🙇🏻 
 
-To use API keys, HTTP requests, CSS animations, search history, LocalStorage and others that were used to build this application.
+To use lazy loading, Angular Material, JSON Server, Angular Flex, Flexbox, CRUD, route protection: Guards, canActivate, canLoad and others that were used to build this application.
 
 ## HeroesApp
 
