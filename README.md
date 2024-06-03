@@ -1,6 +1,6 @@
 ## Description 📑
 
-This is an application that uses GIPHY API to search for GIFs by typing a word (or words). Using this API, the application interfaces with GIPHY, a site with the largest GIF and Sticker library in the world.
+This is an application that shows superheroes cards with informaion about them and their pictures. The user can edit this cards, delete them or create new, also can search for a superheroe in this list.
 
 ## The site is live at 
 https://analauraarce.github.io/gifsApplication/
