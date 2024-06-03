@@ -1,6 +1,6 @@
 ## Description 📑
 
-This is an application that shows superheroes cards with information about them and their pictures. The user can edit these cards, delete them, create new and search for a superheroe in this list.
+This is an application that shows superheroes cards with information about them and their pictures. The user can edit these cards, delete them, create new ones and search for a superhero in this list.
 
 ## The site is live at 
 https://analauraarce.github.io/gifsApplication/
