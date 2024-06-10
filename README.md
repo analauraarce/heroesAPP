@@ -5,7 +5,7 @@ This is an application that shows superheroes cards with information about them 
 ## The site is live at 
 https://analauraarce.github.io/heroesApp/
 
-The live version does not allow editing the database, so some application options will not work such as editing or deleting a superhero.
+The live version does not allow editing the database, so some application features will not work such as editing or deleting a superhero.
 To test this application locally, download the database (db.json) from https://github.com/analauraarce/heroes-server and run        
 `json-server --watch db.json`.
 
