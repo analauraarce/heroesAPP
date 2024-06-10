@@ -17,7 +17,7 @@ To test this application locally, download the database (db.json) from https://g
 
 ## What have I learned with this project? 🙇🏻 
 
-To use lazy loading, Angular Material, JSON Server, Angular Flex, Flexbox, CRUD, route protection: Guards, canActivate, canLoad and others that were used to build this application.
+How to use lazy loading, Angular Material, JSON Server, Angular Flex, Flexbox, CRUD, route protection: Guards, canActivate, canLoad and others that were used to build this application.
 
 ## HeroesApp
 
